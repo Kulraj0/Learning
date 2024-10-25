@@ -10,7 +10,7 @@ int main() {
     if (n==0) {
         cout << "No elements entered" << endl;
     }
-    else if (n%1==0 || n>0){
+    else if (n>0){
         cout << "Invalid number" << endl;
 
     int a[n];
