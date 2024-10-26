@@ -5,7 +5,6 @@ playing = input("do you want to play the game? ")
 if playing.lower() != "yes":
     quit()
 
-name = input("What's your name?")
 print("Let's begin the game")
 
 print("There will be 10 questions,first 5 questions will be for 1 point each and next 5 will be for 2 points each, to win you have to get 10 points. Goodluck!")
@@ -60,3 +59,5 @@ if score > 10:
 
 else:
     print("You failed,try again")
+
+print(f"{score} is your score")
