@@ -38,4 +38,4 @@ while True:
             continue
             
     else:
-        print("Enter a valid number")
+        print("Enter a valid number.")
