@@ -31,7 +31,7 @@ while True:
                 else:
                     print("your guess is greater than number")
             else:
-                if guess<number/2:
+                if guess<number*2:
                     print("Your guess is too lower than number")
                 else:
                     print("your guess is lower than number")
