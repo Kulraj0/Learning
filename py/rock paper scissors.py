@@ -7,8 +7,10 @@ print("Game begins! \n To stop playing enter Q anytime you want \n ")
 user_wins = 0
 comp_wins = 0
 
+i = 1
 while True:
-    user_guess = input("What do you choose \n")
+    user_guess = input(f"Round {i}. What do you choose \n")
+    i += 1
     user_guess = user_guess.lower()
 
     if user_guess == "q":
